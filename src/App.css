@@ -1,0 +1,79 @@
+table {
+  border-collapse: collapse;
+}
+
+.table,
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 15px;
+}
+
+.txt {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin-top: 25px;
+}
+
+.column {
+  margin: 25px;
+  flex: 50%;
+}
+
+.awal {
+  background-color: rgb(51, 139, 211);
+  color: white;
+}
+
+.tabel-sell {
+  max-height: 425px;
+  overflow-y: scroll;
+}
+
+.tabel-sell1 {
+  width: 100%;
+}
+
+.tabel-buy {
+  max-height: 425px;
+  overflow-y: scroll;
+}
+
+.tabel-buy1 {
+  width: 100%;
+}
+
+.h2 {
+  margin-top: -20px;
+}
+
+.column1 {
+  margin-left: 20px;
+}
+
+.column2 {
+  margin-left: 1000px;
+}
+
+.tabel-kanan {
+  border-radius: 25px;
+  padding: 6px;
+  overflow: hidden;
+  display: inline-block;
+  background-color: rgb(51, 139, 211);
+  border: black;
+  color: white;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: rgb(51, 139, 211);
+  color: white;
+}
